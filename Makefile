@@ -1,5 +1,5 @@
 IMAGE_NAME=lapierre/admin-linux
-IMAGE_VERSION=0.0.3
+IMAGE_VERSION=0.0.5
 
 build:
 	docker build -t $(IMAGE_NAME):$(IMAGE_VERSION) .
